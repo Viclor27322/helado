@@ -218,6 +218,7 @@ const ShowUsers = () => {
                     <div className='input-group mb-3'>
                         <span className='input-group-text'><i className='fa-solid fa-comment'></i></span>
                         <select className="form-select" id='pregunta' onChange={(e)=> setPregunta(e.target.value)}  aria-label="Default select example">
+                            <option value="">Seleccione una opcion</option>
                             <option value="¿Cómo se llama tu mascota?">¿Cómo se llama tu mascota?	</option>
                             <option value="¿Cual es tu color favorito?">¿Cual es tu color favorito?</option>
                         </select>
