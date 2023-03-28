@@ -38,7 +38,6 @@ function App() {
               <Route path='/terminos' Component={terminos}></Route>
               <Route path='/crudP' Component={crudp}></Route>
               <Route path='/crudS' Component={crupS}></Route>
-              <Route path='/iot' Component={iot}></Route>
               <Route path='/perfil' Component={perfil}></Route>
               <Route path='/admin' Component={perfil2}></Route>
               <Route path='/ventas' Component={ventas}></Route>
