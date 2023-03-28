@@ -120,6 +120,7 @@ export default function Registro() {
                                      <div className='mb-3'>
                                             <label className="form-label mb-1 text-primary">Pregunta</label>  
                                             <select className="form-select" id='pregunta' onChange={(e)=> setPregunta(e.target.value)}  aria-label="Default select example">
+                                                <option value="">Seleccione una opcion</option>
                                                 <option value="¿Cómo se llama tu mascota?">¿Cómo se llama tu mascota?</option>
                                                 <option value="¿Cual es tu color favorito?">¿Cual es tu color favorito?</option>
                                             </select>
