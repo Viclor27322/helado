@@ -17,7 +17,7 @@ export default function Navbarr(){
     return(
     <nav className="navbar navbar-expand-lg bg-warning fixed-top ">
       <div className="container">
-        <a className="navbar-brand" href="index.php">
+        <a className="navbar-brand" href="/">
         <img width="50" src={logo} alt=""/></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

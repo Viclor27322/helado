@@ -6,7 +6,7 @@ class Iot extends Component{
         <div className="iframe-container">
             <iframe
           src="http://proyecto.heladoshuastecos.com/proyecto/tortuguero"
-          width="auto" height="auto" allowFullScreen="" loading="lazy"
+           width="600" height="450" allowFullScreen="" loading="lazy"
           referrerPolicy="no-referrer-when-downgrade" className='w-100 p-2'></iframe>
         </div>
     )      
