@@ -3,6 +3,13 @@ import '../css/iot.css'
 class Iot extends Component{
     render(){
     return(
+      <div>
+        <div className="iframe-container">
+            <iframe
+          src="http://proyecto.heladoshuastecos.com/proyecto/tortuguero"
+           width="600" height="450" allowFullScreen="" loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade" className='w-100 p-2'></iframe>
+        </div>
         <div>
             <h1 className='text-center p-2 b-0'>Ubicacion </h1>
             <iframe
@@ -10,6 +17,9 @@ class Iot extends Component{
                 width="600" height="450" allowFullScreen="" loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade" className='w-100 p-2'></iframe>
         </div>
+      </div>
+        
+        
     )      
   }
 }
