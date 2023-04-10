@@ -49,8 +49,11 @@ export default function Productoss() {
         if(existencia===0){
         show_alerta('Lo sentimos producto agotado','warning');
       }else{
+        if(cantidad === 0){
+          show_alerta('No se puede comprar 0 productos','warning');
+        }
         if(cantidad>existencia){
-        show_alerta('Cantidad no disponible','warning');
+          show_alerta('Cantidad no disponible','warning');
         }else{
             axios({method:'POST',url:'https://api-rest-equi.vercel.app/api/ventas',data:{
               usuario:user._id,
