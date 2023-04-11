@@ -190,7 +190,7 @@ const ShowProductos = () => {
                                 <th>
                                     <div className='w-50'><img src={product.imagen} className="w-100 h-100"/></div></th>
                                 <td>{product.descripcion}</td>
-                                <td>{product.precio}</td>
+                                <td>${product.precio}</td>
                                 <td>{product.sabor}</td>
                                 <td>{product.presentacion}</td>
                                 <td>{product.existencia}</td>
