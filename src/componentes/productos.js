@@ -98,7 +98,7 @@ export default function Productoss() {
         <section className="description" >
           <h2>{producto.nombre}</h2>
           <p>{producto.descripcion}</p>
-          <h4>Precio : {producto.precio}</h4>
+          <h4>Precio : ${producto.precio}</h4>
           <label>Existencia: </label>
           <span className="myRange">
             
@@ -129,7 +129,7 @@ export default function Productoss() {
                       <section className="description" >
                       <h2 id='nombre' >{nombre}</h2>
                       <p>{descripcion}</p>  
-                      <p>Precio : {precio} </p>
+                      <p>Precio : ${precio} </p>
                       <p>Sabor: {sabor}</p>
                       <p>Presentacion: {presentacion}</p>
                       <label>Existencia: </label>
