@@ -45,7 +45,7 @@ return (
                             <td>{usuario[0].nombreUsers}</td>
                            <td>{productos[0].nombre}</td>
                            <td>{cantidad}</td>
-                           <td>{total}</td>
+                           <td>${total}</td>
                            <td>{fecha}</td>
                         </tr>
                     ))}
