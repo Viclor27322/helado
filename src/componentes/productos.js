@@ -46,12 +46,12 @@ export default function Productoss() {
   }
   const comprar=()=>{
     if(user){
+      if(cantidad === 0){
+        show_alerta('No se puede comprar 0 productos','warning');
+      }
         if(existencia===0){
         show_alerta('Lo sentimos producto agotado','warning');
       }else{
-        if(cantidad === 0){
-          show_alerta('No se puede comprar 0 productos','warning');
-        }
         if(cantidad>existencia){
           show_alerta('Cantidad no disponible','warning');
         }else{
