@@ -45,7 +45,7 @@
                             <tr key={_id}>
                                <td>{productos[0].nombre}</td>
                                <td>{cantidad}</td>
-                               <td>{total}</td>
+                               <td>${total}</td>
                                <td>{fecha}</td>
                             </tr>
                         ))}

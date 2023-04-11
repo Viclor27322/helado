@@ -46,7 +46,7 @@ export default function Buscar() {
               <section className="description" >
                 <h2>{productoss.nombre}</h2>
                 <p>{productoss.descripcion}</p>
-                <h4>Precio : {productoss.precio}</h4>
+                <h4>Precio : ${productoss.precio}</h4>
                 <label>Existencia: </label>
                 <span className="myRange">
                   <input type="number" id="no2" min="0" tab-index="2" placeholder="0" value={productoss.existencia} />
