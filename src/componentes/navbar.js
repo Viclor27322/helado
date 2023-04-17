@@ -43,7 +43,7 @@ export default function Navbarr(){
             <Link  className="nav-link" to={'https://proyecto.heladoshuastecos.com/proyecto/tortuguero/'}>Iot</Link>
             </li>
             <li className="nav-item">
-            <Link  className="nav-link" to={'/ayuda'}>Ayuda</Link>
+            <Link  className="nav-link" to={'/iot'}>IOT2</Link>
             </li>
           </ul>
           <div className="d-flex justify-content-center ">
