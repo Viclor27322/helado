@@ -8,7 +8,7 @@ class Iot extends Component{
             <iframe
           src="https://proyecto.heladoshuastecos.com/proyecto/tortuguero/"
            width="600" height="450" allowFullScreen="" loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade" className='w-100 p-2' scrolling=no ></iframe>
+          referrerPolicy="no-referrer-when-downgrade" className='w-100 p-2' scrolling="no" ></iframe>
         </div>
       </div>
         
