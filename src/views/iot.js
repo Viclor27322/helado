@@ -4,7 +4,7 @@ import Iot from '../componentes/iot'
 import Navbarr from '../componentes/navbar'
 import Sliderr from '../componentes/slider'
 
-export default function iot() {
+export default function Piot() {
   return (
     <div>
         <Navbarr/>
