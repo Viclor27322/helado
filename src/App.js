@@ -21,6 +21,7 @@ import crupS from './views/crupS';
 import perfil2 from './views/perfilA';
 import ventas from './views/ventas';
 import recuperar from './views/recuperar';
+import iot from './views/iot';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
               <Route path='/ventas' Component={ventas}></Route>
               <Route path='/compras' Component={compras}></Route>
               <Route path='/recuperacion' Component={recuperar}></Route>
+              <Route path='/iot' Component={iot}></Route>
             </Routes>
        </BrowserRouter>
     </AuthContextProvider>
